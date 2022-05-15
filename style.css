@@ -183,3 +183,14 @@ a {
   margin: auto;
 }
 
+@media (max-width: 768px) {
+  .navbar{
+    flex-direction: column;
+    height: 120px;
+    padding: 15px;  
+  }
+
+  .navbar a {
+    padding: 0;
+  }
+}
