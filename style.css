@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+.text-primary {
+  color: blueviolet
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  background: #ffff;
+  color: #333;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  color: #ffff;
+  opacity: 0.8;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  padding: 0 30px;
+
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 10 20px;
+  margin: 0 1.1rem;
+}
+
+.navbar a:hover {
+  opacity: 0.8;
+}
+
+.navbar a:hover {
+  border-bottom: blueviolet 2px solid ;
+}
+
+/* card login */
+
+.containner {
+  display: flex;
+  flex-direction: column;
+  margin: 300px auto;
+  max-width: 350px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  color: #333;
+  height: 480px;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.containner h2{
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.card{
+  font-size: 25xp;
+  text-align: center;
+  margin-top: 0.7rem;
+  margin-bottom: 0;
+}
+
+.containner p {
+  font-size: 20px;
+  justify-content: left;
+  margin: 0 0;
+}
+
+
+#input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+  border: none;
+  border: 1px solid #000000;
+  border-radius: 7px;
+}
+
+#input:focus {
+  outline: none !important;
+  border:1px solid #d4d4d4;
+  box-shadow: 0 0 10px #cccccc;
+}
+
+.googlebtn {
+  border: none;
+  border: 1px solid #000000;
+  width: 300px;
+  text-align: center;
+  font-size: 1.0rem;
+  margin: 8px auto;
+  padding: 0.35rem;
+  background-color: #fff;
+  border-radius: 10px;
+  min-height: 40px;
+}
+
+.btn {
+  width: 300px;
+  text-align: center;
+  font-size: 1.0rem;
+  color: #fff;
+  margin: 20px auto;
+  margin-top: 25px;
+  padding: 0.35rem;
+  background-color: #333;
+  border-radius: 10px;
+  min-height: 40px;
+  border: none;
+  border: 1px solid #000000;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.googlebtn:hover {
+  color: #333;
+  opacity: 0.8;
+}
+
+
+/* Header */
+
+#Login {
+  background: url(./background/IMAGEM\ 50.jpg) no-repeat center center/cover;
+  height: 100hv;
+  position: relative;
+  color: #fff;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #333;
+  height: 190px;
+}
+
+.footer h1{
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+
+.footer a{
+  color: #ffff;
+  font-size: 20px;
+}
+
+.footer li {
+  margin: auto;
+}
+
